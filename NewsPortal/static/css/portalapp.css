@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: url(https://images.pexels.com/photos/6208160/pexels-photo-6208160.jpeg?cs=srgb&dl=pexels-%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%B3%D0%BB%D0%B0%D0%B4%D0%BA%D0%BE%D0%B2-6208160.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.jombo{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.fcontainer{
+    display: block;
+    margin-top: 50%;
+    color: aliceblue;
+}
+.mylist {
+    list-style: none;
+    margin-top: 30px;
+}
+.mylist li{
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: black;
+    color: white;
+} 
+.mylist li:hover{
+    background-color: darkmagenta;
+    transition: ease 0.5s;
+}
+}
+
+.jombo > h1 {
+    margin-bottom: 25px;
+}
+
+.btn::hover{
+    background-color: brown;
+    
+}
+
+.cnews{
+    margin-left: 55px;
+    
+    font-size: 23px;
+    font-family: sans-serif;
+    color: aliceblue;
+    
+}
+
+.cnews ol{
+    list-style-type:lower-roman;
+}
+
+.wc{
+    color: aliceblue;
+}
+
